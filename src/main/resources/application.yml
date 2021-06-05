@@ -1,0 +1,13 @@
+minidao:
+  base-package: com.gk.minidaodemo.dao
+  db-type: mysql
+  show-sql: true
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/world
+    username: root
+    password: 174210verygood
+    driver-class-name: com.mysql.jdbc.Driver
+server:
+  servlet:
+    context-path: /
