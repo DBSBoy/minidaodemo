@@ -18,7 +18,11 @@ public interface CityDao {
 
     @Sql("select * from city")
     List<Map<String,Object>> getList();
+    @Sql("select * from city limit 50")
+    List<Map<String,String>> getCityList();
 
+    @Sql("select * from city limit 50")
+    List<city> getCityList2();
     @Sql("select * from city where ID = :ID")
     List<Map<String,Object>> getById(@Param("ID") Integer ID);
 
