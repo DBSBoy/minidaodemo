@@ -1,0 +1,4 @@
+# minidaodemo
+练习
+这里是我平时练习的小例子
+这里持久层采用了minidao,前后交互方面引入了fastjson,还有一些java8的一些特性小demo
